@@ -49,9 +49,6 @@ pipeline {
 //                     sh "mvn clean package sonar:sonar \
 //   -Dsonar.projectKey=GSCORAM-SPETCLINIC \
 //   -Dsonar.projectName=sPetClinic \
-//   -Dsonar.host.url=https://umane.emeal.nttdata.com/sonarqubece \
-//   -Dsonar.login=sqp_84dfd1b1a0e19103bf77222c55c23b98d9105c00 \
-//   -Dsonar.token=sqp_84dfd1b1a0e19103bf77222c55c23b98d9105c00 \
 //   -Dsonar.branch.name=${BRANCH} \
 //   -Dsonar.sources=src/main \
 //   -Dsonar.java.binaries=target/classes" 
